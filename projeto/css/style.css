@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font1: 'Sigmar', cursive;
+    --font2: Verdana, sans-serif;
+
+    --branca1: #F2F2F2;
+    --branca: #ffffff;
+    --verdeescuro: #025E73;
+    --azulescuro:#090C40;
+    --azul02: #048ABF;
+    --laranja:#f58438;
+    --amarelo:#F2B705;
+    --verdeclaro:#5ABF4B;
+
+
+}
+
+main {
+    display: flex;
+    background-color: var(--branca1) ;
+}
+
+aside {
+    background-color: var(--verdeescuro);
+    height: 100vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu_lateral {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5vh;
+
+}
+
+.centralizar_logo {
+    position: relative;
+}
+
+.menu_lateral2 {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.logoVW {
+    height: 72px;
+    width: 82px;
+    position: relative;
+}
+
+
+.foto_perfil {
+    height: 95px;
+    width: 95px;
+
+
+}
+
+.engrenagem_aside {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 68px;
+    left: 74px;
+
+}
+
+
+.lista_aside li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.lista_aside a {
+    color: var(--branca);
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+    font-family: var(--font2);
+
+
+}
+
+.foto_aside {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+   
+}
+
+.sair_aside {
+    height: 30px;
+    width: 30px;
+
+}
+
+
+section {
+    height: 100%;
+    width: calc(100vw - 20vw);
+    margin: 0 44px;
+    color: var(--verdeescuro);
+
+}
+
+.filtrar {
+    height: 30%;
+    width: calc(100vw - 23vw - 90px);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+
+.tabela {
+    height: 15%;
+    width: 75%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+}
+
+.tabela .tabela1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.tabela1
+{
+    height: 50px;
+    width: 180px;
+    font-family: var(--font2);
+    font-size: 16px;
+    color: var(--verdeescuro);
+}
+
+label
+{
+    margin-right: 45px;
+}
+
+label{
+    display: block;
+  
+}
+
+
+select
+{
+    display: block;
+    margin-top: 5px;
+    
+    
+}
+
+select
+{
+   height: 30px;
+   width: 180px;
+   margin-left: 24px;
+   border-color: var(--verdeescuro);
+   border-width: 2px;
+   border-style: solid;
+   border-radius: 10px;
+   text-align: center;
+}
+
+
+.deletar img, .deletar  {
+    height: 40px;
+    width: 40px;
+    margin-left: 6px;
+
+}
+
+table
+{
+    height: 10vh;
+    width: 100%;
+    background-color: var(--branca1);
+}
+
+
+
+
+table th 
+{
+    border-bottom: 3px solid red;
+    text-transform: uppercase;
+    font-family: var(--font2);
+    font-size: 16px;
+    font-weight: normal;
+    border-color: var(--branca1);
+    
+}
+table td
+{
+    border: 1px solid #ffff;
+    border-collapse: collapse;
+   
+    
+
+}
+
+.btn_cadastrar
+{
+    padding: 6px 30px;
+    background-color:var(--verdeescuro);
+    color: var(--branca);
+    border: none;
+    border-radius: 4px;
+    font-family: var(--font2);
+    font-size: 20px;
+    font-weight: normal;
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+    border-radius: 19px;
+
+
+}
+
+.titulos_tabela
+{
+    border-bottom: 1px solid red;
+}
+
+
+th
+{
+    text-align: left;
+    padding-right: 10px;
+    height: 100px;
+
+}
+
+
+
+td
+{
+    padding-left: 10px;
+ 
+}
+
+
+td
+{
+    height: 30px;
+    width: 80px;
+}
+
+.semafaro_tabela
+{
+    width: 100px;
+}
+
+.semafaro
+{
+    height: 60px;
+    width: 60px;
+}
+.th_table
+{
+    align-items: right;
+
+}
+.deletar
+{
+    align-items: right;
+
+}
+
